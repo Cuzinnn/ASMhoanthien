@@ -1,0 +1,27 @@
+input[type=text] {
+    width: 900px;
+    
+  
+  }
+  
+.conten{
+      text-align: center;
+      
+      font-size: inherit;
+      font-weight: bolder;
+    font-size: 30px;
+    margin: auto;
+  }
+  p{
+      margin-top: 50px;
+  }
+  label , input[type=text] , input[type=email] ,textareas{
+      margin-top: 20px;
+  }
+  
+  button{
+      height: 35px;
+      width: 150px;
+      margin-bottom: 20px;
+      margin-left: 500px;
+  }

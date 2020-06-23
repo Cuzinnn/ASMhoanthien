@@ -1,0 +1,54 @@
+ .card-content {
+    transition: transform .2s;
+}
+.card-content:hover{
+     transform: scale(1.1);
+}
+.card-content{
+    background-color: wheat;
+    height: 350px;
+    text-align: center;
+    font-family: serif;
+
+}
+.img{
+    width: 100%;
+    height: 150px;
+}
+
+.contact{
+    height: 200px;
+    width: 100%;
+    color: white;
+}
+
+.card p {
+    font-size: 14px;
+    text-decoration: none;
+}
+.card a:hover{
+    color: red;
+}
+.card-img{
+    padding: 10px 10px 10px 0px ;
+}
+aside{
+    
+}
+a:hover{
+ text-decoration: none;
+}
+.tieuDe{
+    background-color: goldenrod;
+    text-align: center;
+    
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 3px 5px 0px 0px;
+    font-weight: bold;
+    color: white;
+    
+}
+.main{
+    margin-top: 20px;
+}

@@ -1,0 +1,43 @@
+
+label{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+button{
+    margin: 0px 5px 0px 5px;
+}
+section{
+    line-height: 35px;
+    margin: 10px;
+}
+
+.card-img{
+    padding: 10px 10px 10px 0px ;
+}
+aside{
+    
+}
+a:hover{
+ text-decoration: none;
+}
+.tieuDe{
+    background-color: goldenrod;
+    text-align: center;
+    
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 3px 5px 0px 0px;
+    font-weight: bold;
+    color: white;
+    
+}
+.main{
+    margin-top: 20px;
+}
+.card-button-article{
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
