@@ -18,10 +18,25 @@ input[type=text] {
   label , input[type=text] , input[type=email] ,textareas{
       margin-top: 20px;
   }
-  
-  button{
-      height: 35px;
-      width: 150px;
-      margin-bottom: 20px;
-      margin-left: 500px;
+  .card-img{
+    margin: 15px 0px 15px 0px;
+    
   }
+  .card-title{
+    margin-bottom: -30px;
+    padding-bottom: -80px;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  .tieuDe{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #e8a627;
+    color: white;
+    
+  }
+  
+  
+ 

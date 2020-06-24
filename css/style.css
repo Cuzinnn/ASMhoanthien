@@ -38,20 +38,21 @@
   input[type=search]:focus {
     border-radius: 10px;
     width: 200px;
+    border:1px solid #e8a627;
     
     outline:none;
     
   }
 
   input[type=search] {
-      
+    border:1px solid #e8a627;
       margin-top: 3px;
-      transition:.5s ease-in-out ;
+      transition: .5s ease-in-out ;
       border-radius: 10px;
       width: 150px;
-    transform: skewX(1.2);
+        transform: skewX(1.2);
     
-    outline:none;
+        outline:none;
   }
   .row{
       margin-right: 15px;

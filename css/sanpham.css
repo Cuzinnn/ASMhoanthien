@@ -13,7 +13,7 @@ section{
 }
 
 .card-img{
-    padding: 10px 10px 10px 0px ;
+    padding: 10px ;
 }
 aside{
     
@@ -37,7 +37,9 @@ a:hover{
 }
 .card-button-article{
     width: 50%;
-    background-color: black;
+    background-color: rgb(238, 206, 81);
     color: white;
+    border: 1px solid white
+    ;
 }
 
