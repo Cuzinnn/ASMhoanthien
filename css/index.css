@@ -1,5 +1,5 @@
  .card-content {
-    transition: transform .2s;
+    transition:  .2s;
 }
 .card-content:hover{
      transform: scale(1.1);
@@ -30,11 +30,15 @@
     color: red;
 }
 .card-img{
+    
     padding: 10px 10px 10px 10px ;
-}
-aside{
     
 }
+.img-sanpham :hover{
+    transform: skew(1.5);
+    transition: .5s ease-in-out;
+}
+
 a:hover{
  text-decoration: none;
 }
@@ -51,4 +55,8 @@ a:hover{
 }
 .main{
     margin-top: 20px;
+}
+.box-img:hover{
+    transform: skew(1.5);
+    transition: .5s ease-in-out;
 }

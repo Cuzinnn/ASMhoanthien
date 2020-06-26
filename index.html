@@ -39,9 +39,40 @@
                         <a class="nav-link text-uppercase" href="hoidap.html" style="color: white;">HỎI ĐÁP</a>
                     </li>
                     <li>
-                        <div class="input-group">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                            data-whatever="@mdo">Đăng nhập</button>
+                        
 
-                            <input type="search" placeholder="Search">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Đăng nhập</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="recipient-name" class="col-form-label">Tên đăng nhập:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="message-text" class="col-form-label">Mật khẩu</label>
+                                                <br>
+                                                <input class="form-control" type="password">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Đóng</button>
+                                        <button type="button" class="btn btn-primary">Login</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </li>
 
@@ -91,9 +122,10 @@
                     <div class="card mb-3" style="max-width: 900px;">
                         <div class="row no-gutters ">
                             <div class="col-md-4">
-                                <a href="ctsanpham.html"><img src="img/sp1.jpg" height="160px" class="card-img" alt="..."></a>
+                                <a href="ctsanpham.html"><img src="img/sp1.jpg" height="160px"
+                                        class="card-img img-sanpham" alt="..."></a>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 card-fun">
                                 <div class="card-body">
                                     <a href="ctsanpham.html">
                                         <h5 class="card-title">ĐỒ GỖ THƯỢNG HẠNG</h5>
@@ -102,7 +134,7 @@
                                         hữu chúng</p>
                                     <span class="price">
                                         Giá : <span class="price-number"> 15.000$</span>
-                                        </span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -111,9 +143,10 @@
                     <div class="card mb-3" style="max-width: 900px;">
                         <div class="row no-gutters ">
                             <div class="col-md-4">
-                                <a href="ctsanpham.html"><img src="img/sp2.jpg" height="160px" class="card-img" alt="..."></a>
+                                <a href="ctsanpham.html"><img src="img/sp2.jpg" height="160px" class="card-img"
+                                        alt="..."></a>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 card-fun">
                                 <div class="card-body">
                                     <a href="ctsanpham.html">
                                         <h5 class="card-title">ĐỒ GỖ TRANG TRÍ</h5>
@@ -130,9 +163,11 @@
                     <div class="card mb-3" style="max-width: 900px;">
                         <div class="row no-gutters ">
                             <div class="col-md-4">
-                                <a href="ctsanpham.html"><img src="img/sp3.jpg" height="160px" class="card-img" alt="..."></a>
+                                <div class="box-img">
+                                    <a href="ctsanpham.html"><img src="img/sp3.jpg" height="160px" class="card-img"
+                                            alt="..."></a></div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 card-fun">
                                 <div class="card-body">
                                     <a href="ctsanpham.html">
                                         <h5 class="card-title">BỘ BÀN GHẾ THƯỢNG HẠNG</h5>
@@ -149,9 +184,10 @@
                     <div class="card mb-3" style="max-width: 900px;">
                         <div class="row no-gutters ">
                             <div class="col-md-4">
-                                <a href="ctsanpham.html"><img src="img/sp4.jpg" height="160px" class="card-img" alt="..."></a>
+                                <a href="ctsanpham.html"><img src="img/sp4.jpg" height="160px" class="card-img"
+                                        alt="..."></a>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 card-fun">
                                 <div class="card-body">
                                     <a href="ctsanpham.html">
                                         <h5 class="card-title"> GHẾ THƯỢNG HẠNG</h5>
@@ -175,9 +211,10 @@
                     <div class="card mb-3" style="max-width: 900px;">
                         <div class="row no-gutters ">
                             <div class="col-md-4">
-                                <a href="ctsanpham.html"><img src="img/sp1.jpg" height="160px" class="card-img" alt="..."></a>
+                                <a href="ctsanpham.html"><img src="img/sp1.jpg" height="160px" class="card-img"
+                                        alt="..."></a>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 card-fun">
                                 <div class="card-body">
                                     <a href="ctsanpham.html">
                                         <h5 class="card-title">ĐỒ GỖ THƯỢNG HẠNG</h5>
@@ -186,7 +223,7 @@
                                         hữu chúng</p>
                                     <span class="price">
                                         Giá : <span class="price-number"> 15.000$</span>
-                                        </span>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -195,9 +232,10 @@
                     <div class="card mb-3" style="max-width: 900px;">
                         <div class="row no-gutters ">
                             <div class="col-md-4">
-                                <a href="ctsanpham.html"><img src="img/sp2.jpg" height="160px" class="card-img" alt="..."></a>
+                                <a href="ctsanpham.html"><img src="img/sp2.jpg" height="160px" class="card-img"
+                                        alt="..."></a>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 card-fun">
                                 <div class="card-body">
                                     <a href="ctsanpham.html">
                                         <h5 class="card-title">ĐỒ GỖ TRANG TRÍ</h5>
@@ -214,9 +252,10 @@
                     <div class="card mb-3" style="max-width: 900px;">
                         <div class="row no-gutters ">
                             <div class="col-md-4">
-                                <a href="ctsanpham.html"><img src="img/sp3.jpg" height="160px" class="card-img" alt="..."></a>
+                                <a href="ctsanpham.html"><img src="img/sp3.jpg" height="160px" class="card-img"
+                                        alt="..."></a>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 card-fun">
                                 <div class="card-body">
                                     <a href="ctsanpham.html">
                                         <h5 class="card-title">BỘ BÀN GHẾ THƯỢNG HẠNG</h5>
@@ -233,9 +272,10 @@
                     <div class="card mb-3" style="max-width: 900px;">
                         <div class="row no-gutters ">
                             <div class="col-md-4">
-                                <a href="ctsanpham.html"><img src="img/sp4.jpg" height="160px" class="card-img" alt="..."></a>
+                                <a href="ctsanpham.html"><img src="img/sp4.jpg" height="160px" class="card-img"
+                                        alt="..."></a>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 card-fun">
                                 <div class="card-body">
                                     <a href="ctsanpham.html">
                                         <h5 class="card-title"> GHẾ THƯỢNG HẠNG</h5>
@@ -250,22 +290,59 @@
                             </div>
                         </div>
                     </div>
+                    
                 </article>
 
 
             </div>
+            
             <div class="col-sm-4">
                 <aside>
                     <div class="list-group">
                         <button type="button" class="list-group-item list-group-item-action active">
                             DANH MỤC SẢN PHẨM
                         </button>
-                        <button type="button" class="list-group-item list-group-item-action">Bàn ghế</button>
-                        <button type="button" class="list-group-item list-group-item-action">Đồ làm cảnh</button>
-                        <button type="button" class="list-group-item list-group-item-action">Đồ gia dụng</button>
+                        <div id="list-group-input" style="padding: 10px 0px 10px 0px ;  margin-left:10px;" >
+                            <span>TÌM KIẾM SẢN PHẨM</span>
+                            <input type="text" style="width: 85%; margin:0px 7% 0px 7% ; ;" placeholder="Enter here">
+                        </div>
+                        <div class="list-group-navs" style="margin-left:10px ;">
+                        <ul>
+                            
+                            <li><a href="" style="font-weight: bold; ;">ĐỒ GỖ</a> 
+                                <ul>
+                                    <li><a href="">Đồ gỗ thờ cúng</a></li>
+                                    <li><a href="">Đồ gỗ trong nhà</a></li>
+                                    <li><a href="">Đồ gỗ trang trí</a></li>
+                                    <li><a href="">Đồ gỗ óp lát</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div id="list-group-tim" style="margin-left:10px ;">
+                        <span styy>CHỌN GIÁ :</span>
+                        <br>
+                        <input style="margin: 0px 0px 0px 25px;" type=""> <button>Tìm kiếm</button>
+                    </div>
 
                     </div>
                 </aside>
+            </div>
+            <div class="col-sm-12">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
             </div>
         </div>
     </div>
@@ -318,5 +395,3 @@
 </body>
 
 </html>
-
-

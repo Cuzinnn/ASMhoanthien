@@ -42,4 +42,7 @@ a:hover{
     border: 1px solid white
     ;
 }
+.card-button-article:hover{
+    background-color: cornflowerblue;
+}
 
